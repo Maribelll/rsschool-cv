@@ -16,6 +16,12 @@ Html, Css, Basic JavaScript, Bootstrap, Sass, Flex, WordPress, Adobe Photoshop, 
 
 ---
 
+## About me
+
+About myself, I can say that I am a passionate and purposeful person. I strive to become a professional in my field. I chose front-end development for the creative component and constant growth in the sphere. I started learning front-end about three years ago, and I continue learning new technologies. I worked as a freelancer as well as a web developer for a company. Each time I take on a new project with enthusiasm because this is what I love doing.
+
+---
+
 ## Work experience
 
 - 04.21 -07-21<br>
