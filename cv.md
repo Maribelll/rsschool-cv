@@ -1,6 +1,6 @@
-**MARIYA BELIACHYTS**
+# **MARIYA BELIACHYTS**
 
-**Junior Frontend Developer**
+## **Junior Frontend Developer**
 
 Str. A. Garuna 1-67, Minsk<br>
 +375295580709<br>
