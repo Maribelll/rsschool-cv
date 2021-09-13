@@ -5,8 +5,7 @@
 Str. A. Garuna 1-67, Minsk<br>
 +375295580709<br>
 maryia.beliachyts@gmail.com<br>
-
----
+[linkedin.com/in/maria-beliachyts-24781217b](https://www.linkedin.com/in/maria-beliachyts-24781217b/)
 
 ---
 
