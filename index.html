@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>CV</title>
     <meta charset="utf-8" />
@@ -28,6 +28,7 @@
       <div class="main">
         <div class="left_block">
           <section class="contacts">
+            <div class="square"></div>
             <h3>Contacts</h3>
             <hr />
             <ul>
@@ -43,6 +44,7 @@
             </ul>
           </section>
           <section class="skills">
+            <div class="square"></div>
             <h3>Skills</h3>
             <hr />
             <ul>
@@ -57,6 +59,7 @@
             </ul>
           </section>
           <section class="language">
+            <div class="square"></div>
             <h3>Languages</h3>
             <hr />
             <ul>
@@ -65,6 +68,7 @@
             </ul>
           </section>
           <section class="about">
+            <div class="square"></div>
             <h3>About me</h3>
             <hr />
             <p>
@@ -78,9 +82,34 @@
               doing.
             </p>
           </section>
+          <section class="code">
+            <div class="square"></div>
+            <h3>Code example</h3>
+            <hr />
+            <pre class="language-javascript"><code>    
+        function randomDiap(n,m) {
+          return Math.floor(Math.random()*(m-n+1))+n;
+  }
+  function mood(colorsCount) {
+      var colors=[ '', 'red', 'orange', 'yellow', 'green', 'blue', 'violet' ];
+      console.log( 'colors: ' + colorsCount );
+      var used = {};
+        for ( var i=1; i<=colorsCount; i++ ) {
+          do {
+          var n = randomDiap(1, 6);}
+          while (n in used);
+          used[n]=true;
+          var colorName=colors[n];
+          console.log( colorName )
+      }
+  }
+  mood(3);
+            </code></pre>
+          </section>
         </div>
         <div class="right_block">
           <section class="work">
+            <div class="square"></div>
             <h3>Work experience</h3>
             <hr />
             <ul>
@@ -102,6 +131,7 @@
           </section>
 
           <section class="education">
+            <div class="square"></div>
             <h3>Education</h3>
             <hr />
 
@@ -126,43 +156,85 @@
               </li>
             </ul>
           </section>
-          <article>
-            <section class="Projects">
-              <h3>Projects</h3>
-              <hr />
-              <ul>
-                <li>
-                  <a target="blanc" href="https://planteeth.by/"
-                    >Dental clinic</a
+          <section class="projects">
+            <div class="square"></div>
+            <h3>Projects</h3>
+            <hr />
+            <div class="all_projects">
+              <div class="web">
+                <h4>Planteeth</h4>
+                <figure class="p_img">
+                  <a target="blanc" href="https://planteeth.by/">
+                    <img src="images/img1.png" />
+                    <figcaption>Website for dental clinic.</figcaption></a
                   >
-                </li>
-                <li>
-                  <a target="blanc" href="https://profmandental.by/"
-                    >Profmandental</a
+                </figure>
+                <p>
+                  Technologies: Html, Css, JavaScript, PHP, MySQL, Wordpress.
+                </p>
+              </div>
+
+              <div class="web">
+                <h4>Profmandental</h4>
+                <figure class="p_img">
+                  <a target="blanc" href="https://profmandental.by/">
+                    <img src="images/img2.png" />
+                    <figcaption>
+                      Website of the program for dental clinics.
+                    </figcaption></a
                   >
-                </li>
-                <li>
-                  <a target="blanc" href="https://shudaproperties.com/"
-                    >Rent agency</a
+                </figure>
+                <p>
+                  Technologies: Html, Css, JavaScript, JQuery, MySQL, PHP,
+                  Wordpress, Swiper Slider.
+                </p>
+              </div>
+
+              <div class="web">
+                <h4>Shudaproperties</h4>
+                <figure class="p_img">
+                  <a target="blanc" href="https://shudaproperties.com/">
+                    <img src="images/img4.png" />
+                    <figcaption>Website for rent agency.</figcaption></a
                   >
-                </li>
-                <li>
+                </figure>
+                <p>
+                  Technologies: Html, Css, JavaScript, Bootstrap, JQuery, Swiper
+                  Slider.
+                </p>
+              </div>
+
+              <div class="web">
+                <h4>Cakes</h4>
+                <figure class="p_img">
                   <a
                     target="blanc"
                     href="https://maribelll.github.io/cake.github.io/"
-                    >Cakes
-                  </a>
-                </li>
-                <li>
+                  >
+                    <img src="images/img3.png" />
+                    <figcaption>
+                      Website for the sale of culinary products.
+                    </figcaption></a
+                  >
+                </figure>
+                <p>Technologies: Html, Css, Bootstrap, JQuery.</p>
+              </div>
+
+              <div class="web">
+                <h4>Fest Family</h4>
+                <figure class="p_img">
                   <a
                     target="blanc"
                     href="https://maribelll.github.io/FamilyFest.github.io/"
-                    >Fest Family</a
                   >
-                </li>
-              </ul>
-            </section>
-          </article>
+                    <img src="images/img5.png" />
+                    <figcaption>Website for festival of family.</figcaption></a
+                  >
+                </figure>
+                <p>Technologies: Html, Css, Bootstrap, JQuery.</p>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
       <footer>
@@ -171,7 +243,7 @@
         /></a>
         <p>2021</p>
         <a href="https://github.com/Maribelll"
-          ><img id="gh" src="images/github_PNG19.png"
+          ><img id="gh" alt="github" src="images/github_PNG19.png"
         /></a>
       </footer>
     </main>
