@@ -124,6 +124,7 @@ li::marker {
 figcaption {
   width: 220px;
   margin-left: 0px;
+  font-weight: 900;
 }
 .all_projects {
   display: flex;
