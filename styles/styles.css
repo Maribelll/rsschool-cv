@@ -139,3 +139,73 @@ figcaption {
   color: black;
   padding: 0 20px;
 }
+nav li {
+  display: inline;
+  padding-left: 5%;
+  font-weight: 700;
+  color: white;
+}
+nav a {
+  color: white;
+}
+nav ul {
+  height: 70px;
+  margin: 0;
+  padding-top: 15px;
+}
+nav {
+  background-color: #0a0a0a;
+  height: 70px;
+  margin-bottom: -3px;
+}
+@media (max-width: 840px) {
+  header,
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+  section {
+    padding-left: 20px;
+  }
+  .photo_main {
+    margin-right: 37%;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  .photo_main img {
+    position: relative;
+  }
+  section {
+    font-size: 16px;
+  }
+  .left_block,
+  .right_block {
+    width: 100%;
+    padding: 0;
+  }
+  .language-javascript {
+    width: 400px;
+    margin: 20px auto;
+  }
+}
+@media (max-width: 500px) {
+  .language-javascript {
+    width: 200px;
+  }
+  nav ul {
+    padding-left: 0;
+  }
+  .photo_main {
+    margin-left: 0;
+  }
+  .photo_main img {
+    width: 200px;
+    margin: 40px 0 0 30px;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+}
